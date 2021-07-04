@@ -5162,22 +5162,53 @@
 0 0 -1 -1 0 1 #"\0"
 0 75 12 #"Courier New\0"
 0.0 10 92 -1 90 -1 3 -1 0 1 0 1 0 0 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 255
-255 255 1 -1           0 591 0 4 3 85
+255 255 1 -1           0 625 0 17 3 85
 (5
  #";; The first three lines of this file were inserted by DrRacket. They"
  #" record metadata"
-) 0 0 4 29 1 #"\n"
-0 0 4 3 85
+) 0 0 24 29 1 #"\n"
+0 0 17 3 85
 (6
  #";; about the language level of this file in a form that our tools can"
  #" easily process."
-) 0 0 4 29 1 #"\n"
-0 0 4 3 190
-(7
- #"#reader(lib \"htdp-intermediate-reader.ss\" \"lang\")((modname fold-d"
- #"ir-starter) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #"
- #"(#t constructor repeating-decimal #f #t none #f () #f)))"
-) 0 0 4 29 1 #"\n"
+) 0 0 24 29 1 #"\n"
+0 0 26 3 7 #"#reader"
+0 0 24 3 1 #"("
+0 0 14 3 3 #"lib"
+0 0 24 3 1 #" "
+0 0 19 3 29 #"\"htdp-intermediate-reader.ss\""
+0 0 24 3 1 #" "
+0 0 19 3 6 #"\"lang\""
+0 0 24 3 3 #")(("
+0 0 14 3 7 #"modname"
+0 0 24 3 1 #" "
+0 0 14 3 16 #"fold-dir-starter"
+0 0 24 3 3 #") ("
+0 0 14 3 19 #"read-case-sensitive"
+0 0 24 3 1 #" "
+0 0 21 3 2 #"#t"
+0 0 24 3 3 #") ("
+0 0 14 3 10 #"teachpacks"
+0 0 24 3 6 #" ()) ("
+0 0 14 3 13 #"htdp-settings"
+0 0 24 3 3 #" #("
+0 0 21 3 2 #"#t"
+0 0 24 3 1 #" "
+0 0 14 3 11 #"constructor"
+0 0 24 3 1 #" "
+0 0 14 3 17 #"repeating-decimal"
+0 0 24 3 1 #" "
+0 0 21 3 2 #"#f"
+0 0 24 3 1 #" "
+0 0 21 3 2 #"#t"
+0 0 24 3 1 #" "
+0 0 14 3 4 #"none"
+0 0 24 3 1 #" "
+0 0 21 3 2 #"#f"
+0 0 24 3 4 #" () "
+0 0 21 3 2 #"#f"
+0 0 24 3 3 #")))"
+0 0 24 29 1 #"\n"
 0 0 24 3 1 #"("
 0 0 15 3 7 #"require"
 0 0 24 3 1 #" "
@@ -5256,7 +5287,7 @@
 0 0 17 3 26 #";;  - (cons Dir ListOfDir)"
 0 0 24 29 1 #"\n"
 0 0 17 3 72
-(8
+(7
  #";; interp. A list of directories, this represents the sub-directories"
  #" of"
 ) 0 0 24 29 1 #"\n"
@@ -5270,7 +5301,7 @@
 0 0 17 3 30 #";;  - (cons Image ListOfImage)"
 0 0 24 29 1 #"\n"
 0 0 17 3 75
-(9
+(8
  #";; interp. a list of images, this represents the sub-images of a dire"
  #"ctory."
 ) 0 0 24 29 1 #"\n"
@@ -5595,7 +5626,7 @@
 0 0 17 3 26 #";; ListOfImages -> Integer"
 0 0 24 29 1 #"\n"
 0 0 17 3 75
-(10
+(9
  #";; produces number of images in the given directory and its sub-direc"
  #"tories"
 ) 0 0 24 29 1 #"\n"
@@ -5887,8 +5918,7 @@
 0 0 24 3 1 #" "
 0 0 14 3 2 #"D6"
 0 0 24 3 1 #" "
-0 0 19 3 1 #"\""
-0 0 19 3 3 #"D4\""
+0 0 19 3 4 #"\"D4\""
 0 0 24 3 2 #") "
 0 0 14 3 4 #"true"
 0 0 24 3 1 #")"
